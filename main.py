@@ -18,3 +18,4 @@ with open("movies.txt", mode="w", encoding="utf8") as file:
     for movie in movies:
         file.write(f"{movie}\n")
 
+driver.quit()
